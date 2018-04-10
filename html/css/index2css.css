@@ -1,0 +1,55 @@
+page {
+				font-size: 60px;
+			}
+			#a {
+				background-color: lightgreen;
+				animation: season1 1s infinite;
+				animation-timing-function: linear;
+			}
+			#b {
+				background-color: lightyellow;
+				animation: season2 1s infinite;
+				animation-timing-function: linear;
+			}
+			#c {
+				background-color: lightcoral;
+				animation: season3 1s infinite;
+				animation-timing-function: linear;
+			}
+			#d {
+				background-color: lightblue;
+				animation: season4 1s infinite;
+				animation-timing-function: linear;
+			}
+			@keyframes season1{
+				0%{opacity: 0;}
+				20%{opacity: 100;}
+				40%{opacity: 0;}
+				60%{opacity: 0;}
+				80%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes season2{
+				0%{opacity: 0;}
+				20%{opacity: 0;}
+				40%{opacity: 100;}
+				60%{opacity: 0;}
+				80%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes season3{
+				0%{opacity: 0;}
+				20%{opacity: 0;}
+				40%{opacity: 0;}
+				60%{opacity: 100;}
+				80%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes season4{
+				0%{opacity: 0;}
+				20%{opacity: 0;}
+				40%{opacity: 0;}
+				60%{opacity: 0;}
+				80%{opacity: 100;}
+				100%{opacity: 0;}
+			}
